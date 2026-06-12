@@ -70,8 +70,8 @@ El programa analiza el fichero LaLiga_Matches.csv, compuesto por las columanas:
 El programa también acepta el argumento -ex para indicar hasta qué ejercicio ejecutar: ej: -ex 7
 
 ## STEPS TO RUN main.py
-1. git clone https://github.com/tu_usuario/laliga-analysis.git
-2. cd laliga-analysis
+1. git clone https://github.com/cocanacan/laliga-analisis-cocanacan.git
+2. cd laliga-analisis-cocanacan
 3. python -m venv .venv && source .venv/bin/activate
 4. pip install -r requirements.txt
 5. python src/main.py -ex 7
