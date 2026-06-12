@@ -70,11 +70,26 @@ El programa analiza el fichero LaLiga_Matches.csv, compuesto por las columanas:
 El programa también acepta el argumento -ex para indicar hasta qué ejercicio ejecutar: ej: -ex 7
 
 ## STEPS TO RUN main.py
-1. git clone https://github.com/cocanacan/laliga-analisis-cocanacan.git
-2. cd laliga-analisis-cocanacan
-3. python -m venv .venv && source .venv/bin/activate
-4. pip install -r requirements.txt
-5. python src/main.py -ex 7
+### 1. Clonar el repositorio:
+- git clone https://github.com/cocanacan/laliga-analisis-cocanacan.git
+- cd laliga-analisis-cocanacan
+
+### 2. Crear y activar el entorno virtual:
+- Para MAC/Linux:
+python -m venv .venv
+source .venv/bin/activate
+- Para Windows:
+python -m venv .venv
+.venv\Scripts\activate
+
+### 3. Instalamos paquetes: 
+pip install -r requirements.txt
+
+### 4. Creamos carpeta img/ para almacenar las imágenes:
+mkdir img
+
+### 5. Ejecutamos el proyecto:
+ python src/main.py -ex 7
 
 ## LINTING, TEST Y DOCUMENTACIÓN
 1. pylint src/
